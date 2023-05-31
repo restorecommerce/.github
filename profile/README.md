@@ -14,20 +14,19 @@ The main focus is to build a feature complete online shop system with it.
 
 Engineers employed by n-fuse lead and actively maintain the free and open source Restorecommerce platform.
 
-### Infrastructure
+### Demo Shop
 
-- [**`charts`**](https://github.com/restorecommerce/charts) – Kubernetes Helm charts for deploying Restire applications to your desired infrastructure.
+- [**`Store Front`**](https://store.restorecommerce.io/) – The end user's interface.
+- [**`Console`**](https://console.restorecommerce.io/) – The sales admin's interface.
+- [**`API Explorer`**](https://api.restorecommerce.io/graphql) – GraphQL API explorer.
 
 ### Services
 
 Some examples for the available services:
 
 - [**`identity-srv`**](https://github.com/restorecommerce/identity-srv) – A small footprint IDM.
-
 - [**`access-control-srv`**](https://github.com/restorecommerce/access-control-srv) – An policy store and decision maker based on the ABAC principle.
-
 - [**`resource-srv`**](https://github.com/restorecommerce/resource-srv) – A general purpose store for structured data.
-
 - [**`ostorage-srv`**](https://github.com/restorecommerce/ostorage-srv) – A high performance proxy for S3 based object storage services.
 
 ### Docs
@@ -36,7 +35,11 @@ Some examples for the available services:
 
 ### Data
 
-- [**`data`**](https://github.com/restorecommerce/data) – Data sets for demonstration and as vantage point for your system.
+- [**`data`**](https://github.com/restorecommerce/data) – Data sets for the demo shop and as vantage point for your own project.
+
+### Infrastructure
+
+- [**`charts`**](https://github.com/restorecommerce/charts) – Kubernetes Helm charts for deploying Restore applications to your desired infrastructure.
 
 ### References
 
@@ -45,7 +48,7 @@ A list of projects, products and platforms that are based on Restorecommerce:
 - [xingular.io](https://xingular.io) IoT platform.
 - [n-fuse.co](https://n-fuse.co) Web shop.
 - Roche pharma internal advanced time tracking tool.
-- Educational management system for a federal state in Germany.
+- Educational management systems for a federal state in Germany.
 
 ## Getting Started
 
